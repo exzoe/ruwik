@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+  <title>Обо мне</title>
+</head>
+<body>
+  <a href="./index.html">Главная&nbsp;</a>
+  <div id="contacts">
+  <h2>Контакты разработчика</h2>
+  <img src="images/teleg.png" width="30" height="30" alt="telegram">
+  <a href="https://t.me/rekkerrr">@rekkerrr</a>
+  <br> 
+  <br>
+  <img src="images/vk.png" width="30" height="30" alt="vk">
+  <a href="https://vk.com/gtx_gg">gtx_gg</a>
+  </div>
+  <img src="images/gege.png" width="500" height="50" alt="podch">
+  <hr>
+  <div id="form">
+    <h2>Нам важно ваше мнение</h2>
+    
+    <form>
+      <label for="username">Ваше имя:</label>
+      <br>
+      <input type="text" name="username" id="username">
+    </form>
+   
+    <form>
+      <label for="stars">Насколько оцените нашу работу?<br>(от 1 до 5):</label>
+      <br>
+      <span>1</span>
+      <input type="range" name="stars" id="stars" step="1" min="1" max="5">
+      <span>5</span>
+    </form>
+
+    <form>
+      <label for="invite">Как вы узнали об этом сайте?</label>
+      <br>
+      <select id="invite" name="invite">
+        <option value="fromfriend">От друга</option>
+        <option value="fromadv">Реклама</option>
+        <option value="fromself">Сам(а) нашел</option>
+        <option value="fromother">Другое</option>
+      </select>
+    </form>
+
+    <form>
+      <label for="feedback">Ваш отзыв:</label>
+      <br>
+      <textarea id="feedback" name="feedback" rows="10" cols="35">
+      </textarea>
+    </form>
+
+    <form action="./index.html" method="POST">
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+</body>
